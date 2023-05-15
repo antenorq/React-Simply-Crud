@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "bbb912",
+      "color": "bbb912"
+    },
+    {
+      "name": "EEE12",
+      "color": "EEE12",
+      "id": 3
+    },
+    {
+      "name": "CCC",
+      "color": "CCC",
+      "id": 4
+    },
+    {
+      "name": "ggg1",
+      "color": "ggg1",
+      "id": 5
+    }
+  ]
+}
