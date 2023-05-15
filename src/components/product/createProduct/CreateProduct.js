@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-// import './AdicionarUsuario.css'
-
 function CreateProduct({ products, setProducts }) {
   const [name, setName] = useState("");
   const [color, setColor] = useState("");

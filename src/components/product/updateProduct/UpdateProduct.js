@@ -6,28 +6,10 @@ function UpdateProduct({
   productToUpdate,
   setProductToUpdate,
 }) {
-  //NAO PRECISOU CRIAR STATES AQUI POIS PEGUEI O STATE DOS CAMPOS JA DO (productToUpdate)
-
-  //const [id, setId] = useState("");
-  //const [name, setName] = useState("");
-  //const [color, setColor] = useState("");
-  /*
-  useEffect(() => {
-    setId(productToUpdate.id || "");
-    setName(productToUpdate.name || "");
-    setColor(productToUpdate.color || "");
-  }, [productToUpdate]);
-*/
   console.log("ESTOU NO COMPONENT UPDATE");
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-
-    // const productUpdated = {
-    //   id: productToUpdate.id,
-    //   name: productToUpdate.name,
-    //   color: productToUpdate.color,
-    // };
 
     fetch(`http://localhost:3000/products/${productToUpdate.id}`, {
       method: "PUT",
